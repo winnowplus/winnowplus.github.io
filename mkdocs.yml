@@ -1,0 +1,77 @@
+# ------------------------- Site basic information -------------------------
+site_name: WinnowPlus Personal Site
+site_author: WinnowPlus
+site_description: A personal space for tech notes, project showcases, and life reflections
+site_url: https://winnowplus.github.io/
+copyright: Copyright &copy; 2026 WinnowPlus
+
+# ------------------------- Repository information -------------------------
+repo_url: https://github.com/winnowplus/winnowplus.github.io/
+repo_name: winnowplus.github.io
+
+# ------------------------------ Social links ------------------------------
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/winnowplus
+
+# ------------------------------- Theme Configuration --------------------------------
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - scheme: slate
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+#   - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+#   - toc.integrate
+#  font:
+#    text: Roboto
+#    code: Fira Code
+
+# ------------------------- Plugins configuration --------------------------
+plugins:
+  - search
+  - sitemap
+  - awesome-pages
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+# - redirects
+
+# --------------------------- Markdown extensions --------------------------
+markdown_extensions:
+  - toc:
+      permalink: "🔗"
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.smartsymbols
+  - pymdownx.betterem
+  - pymdownx.extra
+# - pymdownx.caret
+# - pymdownx.tilde
+# - admonition
+# - footnotes
+# - meta
+
+# ------------------------------- Navigation -------------------------------
+nav:
+  - Home: index.md
+  - About: about.md
