@@ -49,7 +49,6 @@ theme:
 # ------------------------- Plugins configuration --------------------------
 plugins:
   - search
-  - sitemap
   - awesome-pages
   - git-revision-date-localized:
       enable_creation_date: true
