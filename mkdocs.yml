@@ -16,7 +16,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/winnowplus
 
-# ------------------------------- Theme Configuration --------------------------------
+# -------------------------- Theme Configuration ---------------------------
 theme:
   name: material
   language: en
@@ -33,18 +33,18 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+  font:
+    text: Roboto
+    code: Fira Code
   features:
     - navigation.tabs
     - navigation.sections
-#   - navigation.expand
+    - navigation.expand
     - navigation.top
     - search.suggest
     - search.highlight
     - content.code.copy
 #   - toc.integrate
-#  font:
-#    text: Roboto
-#    code: Fira Code
 
 # ------------------------- Plugins configuration --------------------------
 plugins:
