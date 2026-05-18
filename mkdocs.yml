@@ -71,3 +71,5 @@ markdown_extensions:
 nav:
   - Home: index.md
   - About: about.md
+
+exclude_docs: drafts/
